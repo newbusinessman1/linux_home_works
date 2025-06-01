@@ -1,0 +1,66 @@
+   0 cd /home
+   1 mkdir -p /home/animals
+   2 ls
+   3 mkdir -p /home/animals/dogs ; -p /home/animals/cats ; -p /home/animals/fish
+   4 ls
+   5 cd /animals
+   6 tree
+   7 mkdir -p /home/animals/cats
+   8 ls
+   9 cd animals
+  10 ls
+  11 -p /home/animals/fish
+  12 -p /animals/fish
+  13 mkdir -p /home/animals/fish
+  14 tree
+  15 toch /home/animals/dogs/pluto.txt
+  16 touch /home/animals/dogs/pluto.txt
+  17 ls
+  18 tree
+  19 touch /home/animals/cats/garfield.txt ; /home/animals/fish/nemo.txt
+  20 tree
+  21 touch /home/animals/fish/nemo.txt
+  22 tree
+  23 cd /tmp
+  24 ls
+  25 touch /tmp/adam.txt
+  26 tree
+  27 /
+  28 tree
+  29 cd /home
+  30 mkdir -p /home/humans
+  31 cp /tmp/adam.txt /home/humans/adam.txt
+  32 tree
+  33 cd tmp
+  34 cd /tmp
+  35 touch /tmp/evA.txt
+  36 tree
+  37 mv /evA.txt /opt/eve.txt
+  38 tree
+  39 mv /tmp/evA.txt /opt/eve.txt
+  40 cd /opt
+  41 tree
+  42 cd /tmp
+  43 clear
+  44 cd /tmp
+  45 tree
+  46 cd /opt
+  47 mv /opt/eve.txt /home/humans/eve.txt
+  48 ls
+  49 cd /home
+  50 ls
+  51 cd /humans
+  52 tree
+  53 history > /tmp/history.txt && export_file/tmp/history.txt
+  54 history > history.txt
+  55 export_file
+  56 history > tmp/history.txt
+  57 cd /tmp
+  58 tree
+  59 history > /tmp/history.txt&&export_file/tmp/history.txt
+  60 history > /tmp/history.txt
+
+history > ~/history.txt&&export_file/~/history.txt
+
+
+mkdir -p /home/animals/dogs/pluto.txt ; mkdir -p /home/animals/cats/garfield.txt ; mkdir -p /home/animals/fish/nemo.txt
